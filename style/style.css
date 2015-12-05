@@ -1,0 +1,449 @@
+/* ============ Section.head ============= */
+@import url(../font/stylesheet.css);
+body{
+    font-family: OpenSans;
+}
+section.head {
+    background-image:url(../img/bghead.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: 50% 100%;
+    color: white;    
+}
+header{
+    padding-top: 50px;
+}
+div.wrapper {
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+a {
+    color: white;
+}
+div.logo {
+    padding-top: 25px;
+    padding-left: 0px;
+    width: 25%;
+    float: left
+}
+span.dot{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+.color_logo { 
+    font-size: 30px;
+    color: #39c9da;
+    font-weight: 700;
+}
+nav.navigation {
+    padding-top: 9px;
+    text-align: right;
+}
+ul.menu{
+    padding-top: 28px;
+}
+ul.menu li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0px 14px
+}
+ul.menu li a:hover{
+    color: #39c9da;
+    transition:0.5s;
+}
+div.slogan {
+    padding-top: 200px;
+    text-align: center;
+
+}
+.slogan h1 {
+    font-size: 33px;
+    line-height: 45px;
+    padding-bottom: 30px;
+    width: 523px;
+    margin: auto
+}
+div.download {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 103px;
+}
+.download a span:hover {
+
+    background-color: #2DE190;
+    transition:0.5s;
+}
+.download a span {
+    padding: 18px 50px;
+    font-weight: 700;
+    line-height: 45px;
+    border: 1px solid #39c9da;
+    background-color: #39c9da;
+    border-radius: 5px 5px 5px 5px;
+}
+/* ============ /Section.head ============= */
+
+/* ============ Section.content ============= */
+h1.rubric {
+    padding-top: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+}
+p.lorem {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    color: #a8a8a8;
+}
+img.car {
+    float: left;
+    padding-top: 106px;
+}
+h2.rubrics {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 43px;
+    margin-left: 10px;
+    width: 49%;
+    float: right;
+}
+h2.content_text {
+
+}
+.title-line {
+    float: left;
+    width: 99px;
+    height: 2px;
+    background-color: #39c9da;
+    margin: 2vh 0;
+    margin-left: 30px;
+}
+p.content_text {
+    padding-top: 13px;
+    padding-bottom: 20px;
+    color: #a8a8a8;
+    width: 49%;
+    float: right;
+    padding-bottom: 30px;
+}
+div.button {
+    float: left;
+    padding: 7px 46px;
+    font-weight: 700;
+    line-height: 45px;
+    border: 1px solid #39c9da;
+    background-color: #39c9da;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 26px;
+    margin-bottom: 50px;
+}
+div.button:hover{
+    background-color: #2DE190;
+    transition:0.5s;
+}
+/* ============ /Section.content ============= */
+
+/* ============ Section.portfolio ============= */
+section.portfolio {
+   background-color: #f4f4f4;
+}
+div.portfolio_text {
+    padding-bottom: 40px;
+}
+div.portfolio_images {
+    width: 33.33333333%;
+    float: left;
+}
+figure.portfolio_figure {
+    padding-bottom: 6vh;
+    max-width: 370px;
+    margin: 0 auto;
+}
+div.image {
+    position: relative;
+}
+img.imag1 {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+div.link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+}
+div.link:hover{
+    opacity: 1;
+    background-color: rgba(66, 65, 65, 0.83);
+    transition:0.5s;
+}
+a.read {
+    display: inline-block;
+    margin-top: 35%;
+    left: 0;
+    text-align: center;
+    padding: 18px 32px;
+    border-radius: 2px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+div.under_img {
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+}
+.under_img a {
+    color: #aba7ab;
+    text-decoration: none;
+    float: right;
+    padding: 26px 14px;
+}
+.under_img h2 {
+    display: inline-block;
+    padding: 26px 14px;
+}
+/* ============ /Section.portfolio ============= */
+/* ============ Section.services ============= */
+section.services{
+padding-bottom: 80px;
+}
+div.services_categories {
+    width: 270px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    float: left;
+    max-width: 270px;
+}
+div.services-img {
+    position: relative;
+    background-image: url(../img/sprait.png);
+    background-position: -3px -3px;
+    width: 2%;
+    padding: 17px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+div.services-img1 {
+    position: relative;
+    background-image: url(../img/sprait.png);
+    background-position: -50px -5px;
+    width: 2%;
+    padding: 17px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}div.services-img2 {
+    position: relative;
+    background-image: url(../img/sprait.png);
+    background-position: 0px -45px;
+    width: 2%;
+    padding: 17px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+div.services-img3 {
+    position: relative;
+    background-image: url(../img/sprait.png);
+    background-position: -43px -46px;
+    width: 2%;
+    padding: 17px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+div.magnitude > :hover div.services-img1 { 
+    position: relative;
+    background-image: url(../img/sprait.png);
+    background-position: -92px -48px;
+    width: 2%;
+    padding: 17px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+} 
+div.magnitude > :hover div.services-img2 { 
+    position: relative;
+    background-image: url(../img/sprait.png);
+    background-position: 0px -88px;
+    width: 2%;
+    padding: 17px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+} 
+div.magnitude > :hover div.services-img3 { 
+    position: relative;
+    background-image: url(../img/sprait.png);
+    background-position: -43px -88px;
+    width: 2%;
+    padding: 17px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+} 
+div.magnitude > :hover div.services-img { 
+    position: relative;
+    background-image: url(../img/sprait.png);
+    background-position: -92px -4px;
+    width: 2%;
+    padding: 17px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+} 
+div.magnitude > :hover a.services-read {
+    color:black;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid white;
+    transition:1s;
+}
+div.magnitude >:hover p.description {
+    color: white;
+
+}
+div.services_categories:hover {      
+    border: 1px solid #e2e2e2;
+    background-color: #39c9da;
+    transition:1s;
+}
+h2.paragraph {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+}
+div.servis-line {
+     width: 99px;
+    height: 2px;
+    background-color: #e2e2e2;
+    margin: auto;
+}
+p.description {
+    padding: 30px 0px;
+}
+
+a.services-read {
+    display: inline-block;
+    left: 0;
+    text-align: center;
+    padding: 18px 32px;
+    border-radius: 2px;
+    background-color: #4b4a4b;
+    border: 1px solid #4b4a4b;
+    margin: 10% 0%;
+    color: white;
+}
+div.magnitude {
+    float: left;
+    padding: 0px 10px;
+}
+div.services-text {
+    padding-bottom: 50px;
+}
+/* ============ /Section.services ============= */
+/* ============ Section.contact-us ============= */
+section.contact-us{
+background-color: #f4f4f4;
+}
+div.contact-info{
+    float: left;
+    max-width: 48%;
+}
+div.contact-line{
+    width: 99px;
+    height: 2px;
+    background-color: #39c9da;
+    margin: 2vh 0;
+}
+h2, h3.contact-rubrics{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 23px;
+}
+ul, p.adress-list{
+    padding: 20px 0px;
+    color: #a8a8a8;
+}
+div.wrapper-form{
+    max-width: 48%;
+    float: right;
+}
+div.block-inputf{
+    float: left;
+    padding: 30px 0px;
+    padding-right: 35px;
+    width: 260px;
+}
+div.block-input{
+    float: left;
+    padding: 30px 0px;
+    width: 260px;
+}
+div.block-input1{
+    float: left;
+    width: 550px;
+}
+.input-form{
+    padding: 18px 12px;
+    color: #a8a8a8;
+    border: 1px solid #e6e6e6;
+    width: 90%;
+}
+.input-form1{
+    padding: 18px 15px;
+    width: 140px;
+    color: #a8a8a8;
+    border: 1px solid #e6e6e6;
+    width: 95%;
+}
+.input-form2{
+    color: #a8a8a8;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+}
+.block-textarea{
+    float: left;
+    padding: 30px 0px;
+    width: 550px;
+}
+.button{
+    text-transform: uppercase;
+    padding: 20px 36px;
+    border-radius: 4px;
+    background-color: #39c9da;
+    border: 2px solid #39c9da;
+    color:white;
+}
+div.block-button{
+    float: right;
+    padding-right: 5px;
+    padding-top:10px;
+    padding-bottom: 60px;
+}
+.button:hover {
+    background-color: #2DE190;
+    transition:0.5s;
+}
+/* ============ /Section.contact-us ============= */
+/* ============ Section.footer ============= */
+section.footer{
+    background-color: #39c9da;
+}
+div.footer-content{
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
